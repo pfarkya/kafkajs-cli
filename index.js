@@ -81,7 +81,6 @@ const argv = yargs
     type: 'string'
   })
   .option('username', {
-    alias: 'rg',
     description: 'Region for the aws cluster',
     type: 'string'
   })
