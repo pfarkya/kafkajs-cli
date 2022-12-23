@@ -1,0 +1,19 @@
+{
+  "name": "kafka-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-sts": "^3.236.0",
+    "@aws-sdk/credential-provider-node": "^3.236.0",
+    "@aws-sdk/signature-v4": "^3.226.0",
+    "@jm18457/kafkajs-msk-iam-authentication-mechanism": "^2.0.3",
+    "kafkajs": "^2.2.3",
+    "yargs": "^17.6.2"
+  }
+}
