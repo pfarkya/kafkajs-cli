@@ -171,6 +171,7 @@ async function runCommand(command, options) {
               replicationFactor: options.replications // default: -1 (uses broker `default.replication.factor` configuration)
           }],
         })
+        await admin.disconnect()
         console.log('RUNNING COMMAND CREATETOPIC DONE')
         break
       case 'subscribeTopic':
